@@ -11,11 +11,11 @@ public class Main : MonoBehaviour
     [SerializeField]
     private Tilemap _tilemap;
 
-    private const int Border = 100;
-    private const float ZoomSpeed = 1f;
-    private const int OffspringCount = 100;
+    private const int Border = 40;
+    private const float ZoomSpeed = 0.05f;
+    private const int OffspringCount = 20;
     private const int RegenCount = 100;
-    private const float CamSpeed = 1.5f;
+    private float CamSpeed = 0.05f;
 
     private Camera _mainCamera;
     private System.Random _random;
